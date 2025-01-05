@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <header className={styles.header}>
       <h1>TechBlog</h1>
-      <nav>
+      <nav className={styles.nav}>
         <ul>
           <li>
             <a href="">

@@ -17,24 +17,6 @@
 } */
 
 /* 共通 */
-:root {
-  --foreground: #333;
-  --background: #0a0a0a;
-  --color-text-main: #333;
-  --color-text-sub: #999;
-  --color-text-unpainted: #fff;
-  --color-text-error: #f33;
-  --color-bg-main: #fff;
-  --color-bg-sub: #f8f8f8;
-  --color-bg-code: #f8f8f8;
-  --color-bg-painted: #333;
-  --colo-border: #ddd;
-  --color-border-light: #f33;
-  --color-current: #eee;
-  --color-button-primary: #333;
-  --color-radius: 4px;
-}
-
 .whiteImage {
   filter: invert(100%);
 }
@@ -98,10 +80,10 @@
   gap: 8px;
   margin: 0.8rem 0;
   font-size: 1rem;
-  img {
-    color: #fff;
-  }
 }
+/* img {
+  color: #fff;
+} */
 
 @media (max-width: 768px) {
   .news {
