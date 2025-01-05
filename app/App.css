@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.inner {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* 本文 */
+.main {
+  width: 100%;
+  max-width: 800px;
+  padding-top: 95px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.main-image {
+  width: 100%;
+  height: 300px;
+  background-color: #ccc;
+}
+
+.introduction {
+  margin-bottom: 20px;
+  h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+.search-bar {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.article-card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.article-image {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+}
+
+.article-text h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.article-text p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.page-number {
+  padding: 10px 20px;
+  border: none;
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}

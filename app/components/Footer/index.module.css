@@ -1,0 +1,36 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-form {
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact-form input {
+  padding: 10px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-text {
+  font-size: 0.8rem;
+  color: #888;
+}
