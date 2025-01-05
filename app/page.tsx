@@ -59,8 +59,8 @@ export default function Home() {
       <section className={fvStyles.fv}>
         <h2 className={fvStyles.title}>Design & Engineering</h2>
         <div className={fvStyles.mainImage} />
-        <h3>Introduction</h3>
-        <p>
+        <h3 className={fvStyles.h3}>Introduction</h3>
+        <p className={fvStyles.p}>
           デザイナー兼エンジニアとして活動しています。
           デザイン領域ではWEB、LP、バナーの制作実績があります。
           実装領域では、STUDIO、ワードプレス、microCMS、ムーバブルタイプでの実績があります。
