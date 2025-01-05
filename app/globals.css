@@ -3,17 +3,15 @@
   --background: #0a0a0a;
   --color-text-main: #333;
   --color-text-sub: #999;
-  --color-text-unpainted: #fff;
-  --color-text-error: #f33;
-  --color-bg-main: #fff;
-  --color-bg-sub: #f8f8f8;
-  --color-bg-code: #f8f8f8;
-  --color-bg-painted: #333;
-  --colo-border: #ddd;
-  --color-border-light: #f33;
+  --color-gray: #818992;
   --color-current: #eee;
   --color-button-primary: #333;
-  --color-radius: 4px;
+  --white: #fff;
+  --border-radius: 4px;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 .body {
@@ -35,7 +33,7 @@ body {
 }
 
 body {
-  color: var(--foreground);
+  color: var(--white);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;

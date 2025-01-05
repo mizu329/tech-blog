@@ -7,18 +7,18 @@ export const Header = () => {
     <header className={styles.header}>
       <h1>TechBlog</h1>
       <nav className={styles.nav}>
-        <ul>
-          <li>
+        <ul className={styles.ul}>
+          <li className={styles.li}>
             <a href="">
               <span>
-                <FaGithub />
+                <FaGithub size={24} />
               </span>
             </a>
           </li>
-          <li>
+          <li className={styles.li}>
             <a href="">
               <span>
-                <FaXTwitter />
+                <FaXTwitter size={24} />
               </span>
             </a>
           </li>

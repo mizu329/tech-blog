@@ -5,15 +5,15 @@
   width: 100%;
   padding: 20px;
 }
-
 .nav {
   display: flex;
   align-items: center;
 }
-/* ul {
+.ul {
   width: 100%;
-  padding: 20px;
-} */
+  display: flex;
+  gap: 12px;
+}
 /* svg {
   width: 24px;
   height: 24px;

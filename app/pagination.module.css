@@ -1,0 +1,14 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pageNumber {
+  padding: 10px 20px;
+  border: none;
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
